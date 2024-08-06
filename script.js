@@ -25,7 +25,7 @@ function enviarPedido() {
     meu endereço é 
         •${endereço}.`;
 
-    const urlWhatsApp = 'https://wa.me/ ${numeroPizzaria} ?text=${encodeURIComponent(mensagem)}';
+    const urlWhatsApp = `https://wa.me/${numeroPizzaria}?text=${encodeURIComponent(mensagem)}`;
 
     window.open(urlWhatsApp, '_blank');
 }
