@@ -5,7 +5,7 @@ function enviarPedido() {
     const quantidadepizza = document.getElementById("quantidade-pizza").value
     const quantidadebebida = document.getElementById("quantidade-bebida").value
     const endereço = document.getElementById("endereço").value
-    const numeroPizzaria = "5531999465620"; // Substitua pelo número da pizzaria
+    const numeroPizzaria = "5531993277325"; // Substitua pelo número da pizzaria
 
     const mensagem = `Olá, gostaria de pedir uma pizza 
         •${tamanho} 
