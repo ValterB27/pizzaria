@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.logo img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border-color: white;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px orange;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.nome h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0 0 15px black;
+}
+
+.img img{
+    box-shadow: 0 0 15px black;
+    width: 100%;
+    height: 50%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 1px auto;
+    padding: 5px;
+    background-color:orange;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select, button {
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao button {
+    background-color: #38d43d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px orange
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#sabor{
+    color: black;
+}
+
+#tamanho{
+    color: black;
+}
+
+#bebidas{
+  color: black;
+}
+
+#quantidade-pizza{
+  color: black;
+}
+
+#quantidade-bebida{
+  color: black;
+}
+input{
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+
+}
+
+@media screen and (max-width: 500px){
+
+    .logo img{
+        margin-left: 0;
+    }
+    
+    h1{
+        margin-left: 30px;
+    }
+
+    .botao button {
+         margin-left: 110px;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 1020px ){
+      
+    .logo img{
+        margin-left: 100px;
+    }
+
+}
