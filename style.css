@@ -126,11 +126,14 @@ input{
     }
     
     h1{
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .botao button {
          margin-left: 110px;
+    }
+    .container{
+        margin-top: 60px;
     }
     
 }
